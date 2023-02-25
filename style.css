@@ -7,9 +7,6 @@
     margin: auto;
    
   }
-  *::first-letter{
-    text-transform: uppercase;
-  }
   h1{
     background-color: white;
     border-radius: 20px;
@@ -31,7 +28,7 @@
   }
   .div2{
     width: 95%;
-    
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -58,8 +55,8 @@ margin-top: 20px;
    border-radius: 15px;
    font-size: 22px;
    margin-bottom: 20px; 
-   
-
+   margin-top: 5px;
+text-align: center;
 }
 h2{
     font-size: 30px;
@@ -100,4 +97,7 @@ span{
       width: 100%;
       height: 240px;
     }
+  }
+  *::first-letter{
+    text-transform: uppercase;
   }
